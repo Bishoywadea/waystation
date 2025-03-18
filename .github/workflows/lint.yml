@@ -2,9 +2,8 @@ name: Lint
 
 on:
   pull_request:
-    branches: [ '*' ]
   push:
-    branches: [ '*' ]
+  
 jobs:
   eslint:
     runs-on: ubuntu-latest
